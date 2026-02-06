@@ -11,5 +11,6 @@ public class Time {
         int seconds = totalSeconds % 60;
 
         System.out.println(hours + " hours " + minutes + " minutes " + seconds + " seconds");
+        input.close();
     }
 }

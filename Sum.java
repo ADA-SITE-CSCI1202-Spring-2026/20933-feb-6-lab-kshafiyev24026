@@ -8,5 +8,6 @@ public class Sum {
         int b = input.nextInt();
 
         System.out.println(a + b);
+        input.close();
     }
 }
